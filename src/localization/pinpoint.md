@@ -34,7 +34,7 @@ Navigate to the file `LConstants` and into the `static{}` block and configure th
    - Set the `PinpointConstants.hardwareMapName` variable to the name of the I2C port connected to the Pinpoint module. 
    - Make sure that the I2C port is not the Control Hub built-in IMU port (port 0).
 2. Odometry Measurements:
-   - Input the `forwardY` and `strafeX` values. These values represent the distance of the odometry pods from the robot's center of rotation robot's center of rotation on the [robot coordinate grid](./setup.md#robot-coordinate-grid).
+   - Input the `forwardY` and `strafeX` values. These values represent the distance of the odometry pods from the robot's center of rotation on the [robot coordinate grid](./setup.md#robot-coordinate-grid).
    - The default values are `1` for `forwardY` and `-2.5` for `strafeX`.
    - The default distance measurement is in inches, which can be changed by modifying the `Pinpoint.distanceUnit` variable.
 3. Encoder Resolution:
